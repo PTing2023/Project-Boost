@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 5257564575342416085}
   - component: {fileID: 2366964818849448654}
   - component: {fileID: 5885116546020163425}
+  - component: {fileID: 6528360208585417293}
   m_Layer: 0
   m_Name: ship
   m_TagString: Untagged
@@ -366,7 +367,7 @@ Transform:
   - {fileID: 7742821413880976213}
   - {fileID: 2226813202965803478}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &144911111328870867
 MeshFilter:
@@ -597,6 +598,18 @@ MonoBehaviour:
   crash: {fileID: 8300000, guid: 40044cb10a5b16947a7e041e86329556, type: 3}
   successParticles: {fileID: 1174281070024944139}
   crashParticles: {fileID: 1101646038857404005}
+--- !u!114 &6528360208585417293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3984045475407344279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c65e9d09ede07043a3e4fd2e9ba19d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5065247582656153154
 GameObject:
   m_ObjectHideFlags: 0
